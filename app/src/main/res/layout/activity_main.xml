@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.moham.testrealtimedb.MainActivity">
+
+        <ListView
+            android:id="@+id/listview_rooms_id"
+            android:layout_width="match_parent"
+            android:layout_height="470dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listview_rooms_id"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/edittextaddchat_id"
+            android:layout_width="290dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/buttonaddchat_id"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/add_chat" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

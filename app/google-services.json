@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "330212813499",
+    "firebase_url": "https://testrealtimedb-aef5d.firebaseio.com",
+    "project_id": "testrealtimedb-aef5d",
+    "storage_bucket": "testrealtimedb-aef5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330212813499:android:fede2d1daf9ab0ed",
+        "android_client_info": {
+          "package_name": "com.example.moham.testrealtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330212813499-limfm1seo0hjshuo8h65a5vgghnom71a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC62LSv9ND_bEbFMvsqiI7IZin8cHjoHUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
