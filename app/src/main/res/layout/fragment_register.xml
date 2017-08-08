@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moham.testrealtimedb.fragments.LoginFragment">
+
+    <EditText
+        android:id="@+id/usrname_edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="200dp"
+        android:lines="1"
+        android:gravity="center"
+        android:hint="user name" />
+
+    <EditText
+        android:id="@+id/psswrd_edittext"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:lines="1"
+        android:gravity="center"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@color/btncolor"
+        android:text="register"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
